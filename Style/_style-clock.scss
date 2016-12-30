@@ -1,34 +1,14 @@
     @import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
-    body {
-        margin: 0 auto;
-        width: 90%;
-        height: 700px;
-        /*Retirar conforme for acrescentando conteudo*/
-        background: rgb(164, 166, 245);
-    }
-    
-    .bodyAll {
-        background-color: rgba(102, 205, 170, 0.5);
-        background: url(https://s-media-cache-ak0.pinimg.com/originals/2d/10/ca/2d10ca9cc47240195760fa24637d41dd.jpg) no-repeat;
-        margin: 0;
-        margin: 0px auto;
-        width: 80%;
-        height: 100%;
-    }
-    /*canvas {
-    display: block;
-    width: 100%;
-    height: 100%;
-}*/
     
     .clock {
         width: 160px;
         height: 160px;
-        background: #222;
+        background: #0a1829;
         border-radius: 50%;
         position: absolute;
-        top: 15%;
-        right: 10%;
+        top: 80px;
+        left: 50%;
+        box-shadow: 0px 0px 5px #888888;
         -webkit-transform: translate3d(-50%, -50%, 0);
         transform: translate3d(-50%, -50%, 0);
     }
@@ -3944,34 +3924,15 @@
         -webkit-animation: animate-hour-hand-59 86400s linear infinite;
         animation: animate-hour-hand-59 86400s linear infinite;
     }
-    
-    body {
-        background: #0f0f0f;
-    }
-    
-    nav {
-        color: #fff;
-    }
-    
-    nav ul {
-        float: left;
-    }
-    
-    nav ul li {
-        display: inline;
-        padding: 10px;
-    }
-    
-    a {
-        text-decoration: none;
-        color: #fff;
-    }
 
-    a:hover {
-        color: #1b1a1a;
-        background-color: #bbb;
-        border-radius: 6px;
-        padding: 5px;
-        box-shadow: 4px 3px 5px #888888;
-        font-weight: bold;
-    }
+    .All-clock {
+            width: 160px;
+            height: 160px;
+            background: #0a1829;
+            border-radius: 5%;
+            position: absolute;
+            top: 91px;
+            right: 26px;
+            -webkit-transform: translate3d(-50%, -50%, 0);
+            transform: translate3d(-50%, -50%, 0);
+        }
