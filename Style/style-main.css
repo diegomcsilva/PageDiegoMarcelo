@@ -1,57 +1,23 @@
-body {
-  margin: 0 auto;
-  width: 90%;
-  height: 700px;
-  background-color: #525252; }
+/*
+Errno::ENOENT: No such file or directory @ rb_sysopen - style-main.scss
 
-.bodyAll {
-  background: url(../Imagens/the_circuit_grid.jpg) no-repeat;
-  background-size: 100%;
-  margin: 0px auto;
-  width: 95%;
-  height: 100%; }
-
-nav {
-  color: #fff; }
-  nav ul {
-    float: left; }
-    nav ul li {
-      display: inline;
-      padding: 10px; }
-
-a {
-  background: rgba(0, 255, 0, 0.16);
-  text-decoration: none;
-  color: #fff;
-  border-radius: 6px;
-  padding: 5px;
-  box-shadow: 4px 3px 5px #888888;
-  font-weight: bold;
-  border: 1px solid white;
-  font-size: 20px; }
-  a:hover {
-    color: #1b1a1a;
-    background-color: #bbb;
-    border-radius: 6px;
-    padding: 5px;
-    box-shadow: 4px 3px 5px #888888;
-    font-weight: bold; }
-
-.containerFoto {
-  width: 100%;
-  background: white;
-  height: 100px;
-  position: relative;
-  top: 26%; }
-  .containerFoto h2 {
-    text-align: center; }
-  .containerFoto:hover {
-    background: #eaeafb;
-    background: -moz-linear-gradient(top, #eaeafb 0%, #d1cef2 43%, #c3c2ef 59%, #b9bfee 100%);
-    background: -webkit-gradient(left top, left bottom, color-stop(0%, #eaeafb), color-stop(43%, #d1cef2), color-stop(59%, #c3c2ef), color-stop(100%, #b9bfee));
-    background: -webkit-linear-gradient(top, #eaeafb 0%, #d1cef2 43%, #c3c2ef 59%, #b9bfee 100%);
-    background: -o-linear-gradient(top, #eaeafb 0%, #d1cef2 43%, #c3c2ef 59%, #b9bfee 100%);
-    background: -ms-linear-gradient(top, #eaeafb 0%, #d1cef2 43%, #c3c2ef 59%, #b9bfee 100%);
-    background: linear-gradient(to bottom, #eaeafb 0%, #d1cef2 43%, #c3c2ef 59%, #b9bfee 100%); }
-
-/*# sourceMappingURL=style-main.css.map */
+Backtrace:
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:484:in `read'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:484:in `update_stylesheet'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:294:in `watch'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin.rb:109:in `method_missing'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:360:in `watch_or_update'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:51:in `process_result'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/exec/base.rb:52:in `parse'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/exec/base.rb:19:in `parse!'
+C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.23/bin/sass:13:in `<top (required)>'
+C:/Ruby23-x64/bin/sass:22:in `load'
+C:/Ruby23-x64/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Errno::ENOENT: No such file or directory @ rb_sysopen - style-main.scss"; }
