@@ -1,0 +1,102 @@
+body {
+  background: url(../Imagens/the_circuit_grid.jpg) no-repeat;
+  margin: 0 auto;
+  width: 90%;
+  height: 700px;
+  color: #fff; }
+
+.All {
+  background: rgba(0, 0, 0, 0.8);
+  margin: 0px auto;
+  width: 95%; }
+
+nav {
+  color: #fff; }
+  nav ul {
+    margin-top: 0px; }
+  nav li {
+    display: inline-block;
+    padding: 10px; }
+  nav h1 {
+    padding: 10px;
+    border-bottom: 5px solid #24e6b7;
+    border-top: 2px solid #24e6b7;
+    width: 241px;
+    text-align: center;
+    margin: 30px auto; }
+
+a {
+  background: rgba(0, 255, 0, 0.16);
+  text-decoration: none;
+  color: #fff;
+  border-radius: 6px;
+  padding: 5px;
+  box-shadow: 4px 3px 5px #888888;
+  font-weight: bold;
+  border: 1px solid white;
+  font-size: 20px; }
+  a:hover {
+    color: #1b1a1a;
+    background-color: #bbb;
+    border-radius: 6px;
+    padding: 5px;
+    box-shadow: 4px 3px 5px #888888;
+    font-weight: bold; }
+
+.containerWellcome {
+  width: 100%;
+  background: #355a69;
+  height: 100%;
+  margin-top: 12%;
+  text-align: center;
+  color: #fff;
+  padding: 1px;
+  font-size: 20px;
+  border-bottom: 5px solid #24e6b7;
+  border-top: 2px solid #24e6b7; }
+  .containerWellcome:hover {
+    color: #000;
+    background: #eaeafb;
+    background: -moz-linear-gradient(top, #eaeafb 0%, #d1cef2 43%, #c3c2ef 59%, #b9bfee 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #eaeafb), color-stop(43%, #d1cef2), color-stop(59%, #c3c2ef), color-stop(100%, #b9bfee));
+    background: -webkit-linear-gradient(top, #eaeafb 0%, #d1cef2 43%, #c3c2ef 59%, #b9bfee 100%);
+    background: -o-linear-gradient(top, #eaeafb 0%, #d1cef2 43%, #c3c2ef 59%, #b9bfee 100%);
+    background: -ms-linear-gradient(top, #eaeafb 0%, #d1cef2 43%, #c3c2ef 59%, #b9bfee 100%);
+    background: linear-gradient(to bottom, #eaeafb 0%, #d1cef2 43%, #c3c2ef 59%, #b9bfee 100%); }
+
+.containerInfo {
+  color: #fff;
+  background: #1a2c33;
+  border: 2px solid;
+  margin: 15px;
+  border-radius: 15px; }
+  .containerInfo :nth-child(1) {
+    border-bottom: 5px solid #24e6b7;
+    border-top: 2px solid #24e6b7;
+    padding: 6px;
+    text-indent: 28px; }
+  .containerInfo img {
+    width: 160px;
+    height: 100px;
+    float: left;
+    margin: 0px 10px 10px 10px;
+    border-radius: 5px;
+    border: 2px solid #24e6b7; }
+  .containerInfo .textown {
+    text-indent: 20px; }
+  .containerInfo .infoSub {
+    border-bottom: 1px solid #24e6b7;
+    padding-left: 10px; }
+
+.content {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 2%;
+  text-align: justify; }
+
+div h2 {
+  text-align: center;
+  background: #1a2c33;
+  padding: 8px; }
+
+/*# sourceMappingURL=style.css.map */
